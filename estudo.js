@@ -41,10 +41,15 @@ function quadrado(){
         }
 
         function somaNota(){
-          let n1 = document.getElementById("t1").value;
-          let n2 = document.getElementById("t2").value;
-          let n3 = document.getElementById("t3").value;
-          let r = Number(n1) + Number(n2) + Number
+          let val = document.getElementById("valor").value;
+          let j = document.getElementById("juros").value;
+          let t = document.getElementById("meses").value;
+          let res = val;
+          for(let m=1; m <= t;m++){
+              res = val * (1+(j/100));
+              val = res;
+              document.write("mês " + m + = + res + "<br>");
+          }
         }
 
         
