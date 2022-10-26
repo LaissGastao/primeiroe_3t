@@ -28,6 +28,7 @@ function quadrado(){
     for(let i = 1; i < 10; i++){
         document.write("o quadrado de" + i + "é" + (i*i) + "<br>)"
 
+       return atual.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
 
 
         function calcula(){
@@ -54,5 +55,5 @@ function quadrado(){
 
         
 
-
-
+document.getElementyById("total").inne
+document.write("Resultado: "+moeda(res));
