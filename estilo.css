@@ -1,0 +1,17 @@
+estilo.css
+  body {
+        background: rgb(121, 185, 153);
+        margin: 0
+        padding:0;
+  }
+@keyframes quadrado {
+   0% from {background: blueviolet;}
+   50% to background: cadetblue;}
+}  100%{background: chartreuse; border-}
+  .animacao {
+        background: rgb(207,111,32);
+        width: 400px;
+        height: 400px;
+        animation-name: quadrado;
+        animation-duration: 10s;
+  }
